@@ -23,17 +23,17 @@ export default function BottomTabs() {
                     tabBarActiveTintColor: colors.black,
                     tabBarLabelStyle: {
                         fontSize: 14,
-                        paddingBottom: 5,
+                        paddingBottom: 3,
                         fontWeight: '600',
                     },
                     tabBarStyle: {
                         elevation: 3,
-                        height: 65,
+                        // height: 60,
                         bottom: 0,
                         left: 0,
                         right: 0,
-                        // borderTopColor: 'grey',
-                        // backgroundColor: 'white',
+                        borderTopColor: colors.offwhite,
+                        backgroundColor: colors.offwhite,
                     },
                     tabBarIcon: ({ focused }) => {
                         let iconName;

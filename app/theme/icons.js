@@ -10,6 +10,11 @@ const account = require('../../assets/icons/account.png');
 const account_filled = require('../../assets/icons/account-fill.png');
 const orders = require('../../assets/icons/list.png');
 const orders_filled = require('../../assets/icons/list-outline.png');
+const pickup = require('../../assets/icons/pick-up.png');
+const food = require('../../assets/icons/fast-food.png');
+const bakery = require('../../assets/icons/bakery-items.png');
+const drinks = require('../../assets/icons/soft-drinks.png');
+
 
 export default {
     home,
@@ -22,4 +27,8 @@ export default {
     account_filled,
     orders,
     orders_filled,
+    pickup,
+    food,
+    bakery,
+    drinks,
 };
