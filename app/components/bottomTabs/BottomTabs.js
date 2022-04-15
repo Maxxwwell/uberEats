@@ -28,7 +28,7 @@ export default function BottomTabs() {
                     },
                     tabBarStyle: {
                         elevation: 3,
-                        // height: 60,
+                        height: 58,
                         bottom: 0,
                         left: 0,
                         right: 0,

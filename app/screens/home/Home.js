@@ -8,6 +8,8 @@ import HeaderTabs from '../../components/headerTabs/HeaderTabs';
 import { colors } from '../../theme/colors';
 import SearchBar from '../../components/searchBar/SearchBar';
 import Categories from '../../components/categories/Categories';
+import { ScrollView } from 'react-native-gesture-handler';
+import RestaurantItem from '../../components/restaurant-item/RestaurantItem';
 
 export default function Home() {
   return (
@@ -15,7 +17,15 @@ export default function Home() {
       <StatusBar backgroundColor={colors.black} />
       <HeaderTabs />
       <SearchBar />
-      <Categories />
+
+      <ScrollView showsVerticalScrollIndicator={false}>
+        <Categories />
+        <RestaurantItem />
+        {/* <RestaurantItem />
+        <RestaurantItem /> */}
+
+      </ScrollView>
+
     </Scaffold>
   );
 }
