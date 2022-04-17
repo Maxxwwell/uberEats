@@ -8,7 +8,8 @@ export const HeaderContainer = styled(View)`
     align-self: center;
     justify-content: center;
     width: 100%;
-    padding-bottom: 8px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 
     background-color: ${(props) => props.theme.colors.white};
 `;

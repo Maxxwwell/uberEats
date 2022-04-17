@@ -3,7 +3,7 @@ import { View, Text, TouchableOpacity, Image } from 'react-native';
 import styled from 'styled-components';
 
 export const Card = styled(TouchableOpacity)`
-    margin-bottom: 30px;
+    /* margin-bottom: 40px; */
     
 `;
 
@@ -11,13 +11,15 @@ export const RestaurantContainer = styled(View)`
     margin-top: 10px;
     background-color: ${(props) => props.theme.colors.white};
     padding: 10px;
+        margin-bottom: 20px;
+
     
 
 `;
 
 export const ResImage = styled(Image)`
     width: 100%;
-    height: 200px;
+    height: 240px;
 `;
 
 

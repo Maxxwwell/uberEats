@@ -28,12 +28,12 @@ export default function BottomTabs() {
                     },
                     tabBarStyle: {
                         elevation: 3,
-                        height: 58,
+                        height: 60,
                         bottom: 0,
                         left: 0,
                         right: 0,
-                        borderTopColor: colors.offwhite,
-                        backgroundColor: colors.offwhite,
+                        borderTopColor: colors.white,
+                        backgroundColor: colors.white,
                     },
                     tabBarIcon: ({ focused }) => {
                         let iconName;

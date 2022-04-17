@@ -7,6 +7,7 @@ import AppNavigation from './app/components/navigation/AppNavigation';
 import {theme} from './app/theme';
 
 const App = () => {
+  console.log('Run first');
   return (
     <>
       <ThemeProvider theme={theme}>
